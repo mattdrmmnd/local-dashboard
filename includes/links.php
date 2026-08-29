@@ -13,6 +13,9 @@
 <a href="http://localhost/local_dashboard/calculator/">Calculator</a><br><br>
 <p>--------------------------------------</p>
 
+<h3>Bash Commands:</h3>
+<a href="bash_commands.php">Bash Commands</a><br><br>
+<p>--------------------------------------</p>
 
 <h3>Full-Stack Resources:</h3>
 <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Bootstrap Docs</a><br><br>
