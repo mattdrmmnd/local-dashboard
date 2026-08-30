@@ -31,16 +31,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
 <body>
 
     <h3>Welcome Back!</h3>
+    <p>Beta version 0.0.2</p>
     <a href="../login_system/">Login</a>
     <br>
     <?php
     //echo $_SESSION["username"];
-    echo "<br>";
+    /*echo "<br>";
     date_default_timezone_set('America/Phoenix');
-    echo date("m.d.Y");
+    echo date("m.d.Y");*/
     ?>
-    <br><br>
-    <a href="http://localhost/my_website/session_example.php">Session example</a>
+    <!--<br><br>
+     <a href="http://localhost/my_website/session_example.php">Session example</a> -->
     <p>--------------------------------------</p>
 
    
