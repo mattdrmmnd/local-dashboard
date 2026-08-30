@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
 </head>
 <body>
 
-    <h3>Welcome Back</h3>
+    <h3>Welcome Back!</h3>
     <a href="../login_system/">Login</a>
     <br>
     <?php
