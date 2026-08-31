@@ -15,4 +15,5 @@
     <p><b>Document Root:</b> <?php echo $_SERVER["DOCUMENT_ROOT"]; ?></p>
     <p><b>Document Index:</b> <?php echo $_SERVER["PHP_SELF"]; ?></p>
     <p><b>Server Name:</b> <?php echo $_SERVER["SERVER_NAME"]; ?></p>
+    <p><b>PHP Version:</b> <?php echo phpversion(); ?></p><!--use phpinfo() for more info-->
     <p><b>Request Method:</b> <?php echo $_SERVER["REQUEST_METHOD"]; ?></p>
