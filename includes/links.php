@@ -33,3 +33,7 @@
 
 <p>--------------------------------------</p>
 
+<h3>Take a look:</h3>
+<a href="https://survey.stackoverflow.co/2025/" target="_blank">2025 Developer Survey</a><br><br>
+
+<p>--------------------------------------</p>
