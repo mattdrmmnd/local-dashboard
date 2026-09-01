@@ -30,6 +30,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
 </head>
 <body>
 
+<style>
+    .hidden {
+        display: none;
+    }
+</style>
+
     <h3>Welcome Back!</h3>
     <p>Beta version 0.0.2</p>
     <a href="../login_system/">Login</a>
@@ -80,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
     <br><br>
 
     <p>--------------------------------------</p>
-    
+
     <?php
 
     switch ($selector) {
