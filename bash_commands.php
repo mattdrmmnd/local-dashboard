@@ -47,6 +47,8 @@
     </ul>
 
     <h3>Branch / Merge</h3>
+
+    <p>Note: Before merging, ensure you are on the correct branch (usually main) before proceeding.</p>
     <ul class="git-guide">
     <li><code>git branch branch_name</code><br>Creates new "FEATURE" branch</li>
     <li><code>git switch branch_name</code><br>Go to a different branch</li>
