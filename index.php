@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Sandbox</title>
+    <title>Local Dashboard</title>
 </head>
 <body>
 
@@ -41,11 +41,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
     echo date("m.d.Y");*/
     ?>
     <!--<br><br>
-     <a href="http://localhost/my_website/session_example.php">Session example</a> -->
+     <a href="http://localhost/my_website/session_example.php">Session example</a> --> 
+
+    <p>--------------------------------------</p>
+    <h3>LocalHost:</h3>
+    <a href="http://localhost/phpmyadmin/" target="_blank">phpMyAdmin</a>
+    <br><br>
+    <a href="http://localhost/wp/wp-admin" target="_blank">local wp</a>
+    <br><br>
     <p>--------------------------------------</p>
 
-   
-    <h3>PHP Sandbox</h3>
+    <h3>PHP Language Reference</h3>
 
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <select name="selector">
@@ -69,9 +75,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
         <button>Go</button>
     </form>
 
-    <br><br>
+    <br>
     <a href="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">Reset</a>
     <br><br>
+
+    <p>--------------------------------------</p>
+    
     <?php
 
     switch ($selector) {

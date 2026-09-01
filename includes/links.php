@@ -1,11 +1,11 @@
 
-<p>--------------------------------------</p>
+<!--<p>--------------------------------------</p>
 <h3>LocalHost:</h3>
 <a href="http://localhost/phpmyadmin/" target="_blank">phpMyAdmin</a>
 <br><br>
 <a href="http://localhost/wp/wp-admin" target="_blank">local wp</a>
 <br><br>
-<p>--------------------------------------</p>
+<p>--------------------------------------</p>-->
 
 
 
