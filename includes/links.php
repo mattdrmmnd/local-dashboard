@@ -45,6 +45,7 @@
   <li class="extra_link hidden"><a href="https://nextjs.org/" target="_blank">Next.JS</a></li>
   <li class="extra_link hidden"><a href="https://react.dev/" target="_blank">React</a></li>
   <li class="extra_link hidden"><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+  <li class="extra_link hidden"><a href="https://tailwindcss.com/docs/installation/using-vite" target="_blank">Tailwind CSS Docs</a></li>
   <li class="extra_link hidden"><a href="https://www.w3.org/" target="_blank">W3C</a></li>
   <li class="extra_link hidden"><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
   <li class="extra_link hidden"><a href="https://wordpress.org/documentation/" target="_blank">Wordpress Docs</a></li>
