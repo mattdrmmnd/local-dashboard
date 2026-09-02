@@ -9,6 +9,8 @@
     echo $_SERVER["SERVER_NAME"];
     echo "<br>";*/
     
+    //Type  ?name=yourname in the URL to see the output of $_GET["name"]
+    //Add additonal parameters to the URL like ?name=yourname&age=yourage to see the output of $_GET["age"]
     //echo $_GET["name"];
 
     ?>
