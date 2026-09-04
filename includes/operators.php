@@ -14,22 +14,29 @@
     echo "<p><b>Arithmetic operator</b></p>";
     // Arithmetic operator
     echo (1 + 2) * 4;
+    echo "<br>";
+    echo 10 % 3; //Modular gives remainder of 10
+    echo "<br>";
+    echo 10 ** 3; //10 to the power of 3
+    echo "<br>";
+    echo (1 + 2) * (4 - 2);//PEMDAS
+    
+    
     
     echo "<br>";
     echo "<br>";
     echo "<p><b>Assignment operator</b></p>";
     // Assignment operator
     $a = 2;
-    $a += 4;
+    $a *= 4;
 
     echo $a;
+
 
     echo "<br>";
     echo "<br>";
     echo "<p><b>Comparison operator</b></p>";
     // Comparison operator
-
-
     $a = 2;
     $b = 4;
 
@@ -49,6 +56,12 @@
     echo "<p><b>Incrementing/decrementing operators</b></p>";
     // Incrementing/decrementing operators
     $g = 1;
+    $h = 1;
     echo ++$g;
+
+    echo "<br>";
+    echo $h++; //echos out $h and then adds 1
+    echo "<br>";
+    echo $h; //$h now shows 
 
     ?>
