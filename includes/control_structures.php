@@ -33,7 +33,7 @@
     if ($a < $b && !$bool) {
         echo "First condition is true!";
     }
-    elseif ($a < $b && $bool) {
+    else if ($a < $b && $bool) {
         echo "Second condition is true!";
     } else {
         echo "None were true.";
