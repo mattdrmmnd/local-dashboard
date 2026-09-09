@@ -46,6 +46,7 @@
     <li><code>git revert 68e80d2</code><br>Reverts and creates new hash for previous commit</li>
     </ul>
 
+    <br>
     <h3>Branch / Merge</h3>
 
     <p>Note: Before merging, ensure you are on the correct branch (usually main) before proceeding.</p>
@@ -56,6 +57,15 @@
     <li><code>git branch</code><br>Shows all branches</li>
     <li><code>git merge welcome</code><br>Merges welcome branch into main</li>
     <li><code>git branch -d welcome</code><br>Deletes the welcome branch</li>
+    </ul>
+
+    <br>
+    <h3>Use when Push but No Commit</h3>
+
+    <ul class="git-guide">
+    <li><code>git diff --staged </code><br>Verify what's staged is exactly the missing piece</li>
+    <li><code>git commit --amend --no-edit</code><br>Amend the previous commit with it</li>
+    <li><code>git push --force-with-lease</code><br>Force-push the corrected commit</li>
     </ul>
 
 </body>
