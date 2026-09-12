@@ -1,5 +1,7 @@
 <h3>Loops</h3>
 
+// For loops are good for working with numbers
+// Use when you are performing count-controlled iterations / Static
 <p><b>for loop.</b></p>
 <?php
 // Loop that depends on numbers
@@ -25,6 +27,9 @@ for ($i = 0; $i <= $loop_int; $i++) {
 ?>
 
 <br>
+
+// While loops are good to use inside of functions
+// use when you are performing condition-controlled iterations / Dynamic
 <p><b>while loop / Boolean.</b></p>
 <?php
 // 
