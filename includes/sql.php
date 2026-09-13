@@ -25,7 +25,7 @@ function showToast(message) {
 <h3>SQL queries</h3>
 
 <p>--------------------------</p>
-<p style: color="#fff123">Create Table</p>
+<p style: color="#fff123">Create a USERS Table</p>
 <code>
     CREATE TABLE users (
         id INT(11) NOT NULL AUTO_INCREMENT,
@@ -34,6 +34,20 @@ function showToast(message) {
         email VARCHAR(100) NOT NULL,
         created_at DATETIME NOT NULL DEFAULT CURRENT_TIME,
         PRIMARY KEY (id)
+    ):
+</code>
+<button onclick="copy(this)">Copy text</button>
+
+<p style: color="#fff123">Create a COMMENTS Table</p>
+<code>
+    CREATE TABLE comments (
+        id INT(11) NOT NULL AUTO_INCREMENT,
+        username VARCHAR(30) NOT NULL,
+        comment_text TEXT NOT NULL,
+        created_at DATETIME NOT NULL DEFAULT CURRENT_TIME,
+        users_id INT(11),
+        PRIMARY KEY (id),
+        FOREIGN KEY (users_id) REFERENCES users (id) ON DELETE SET NULL
     ):
 </code>
 <button onclick="copy(this)">Copy text</button>
