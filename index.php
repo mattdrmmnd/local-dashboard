@@ -87,6 +87,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
 
     <p>--------------------------------------</p>
 
+    <h3>Sandox:</h3>
+    <a href="sandbox/index.php">Sandbox</a>
+    <br><br>
+    <p>--------------------------------------</p>
+
+
     <?php
 
     switch ($selector) {
@@ -141,6 +147,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["selector"])) {
     }
     ?>
 
+    <p>--------------------------------------</p>
+    
     
 
 </body>
