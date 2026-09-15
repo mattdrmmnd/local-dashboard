@@ -10,32 +10,16 @@
 <a style="text-decoration: none;" href="../">Dashboard</a>
 <br>
 
-<?php 
-    $slang = "Word";
-    $toggle = 0; // Change to 1 to toggle
+<p id="greetingText">Say Word!</p>
+<button id="toggleBtn">Toggle</button>
 
-    function greeting(string $slang)
-    {
-        
-        global $toggle;
-
-        if ($toggle) {
-
-           echo "<p> Say " . $slang . " !</p>";
-
-        } else {
-
-        $slang = "Hello";
-        echo "<p> Say " . $slang . " !</p>";
-        }
-    }
-
-    greeting($slang);
-
-?>
-
-
-
+<script>
+    let toggle = 1;
+    document.getElementById('toggleBtn').addEventListener('click', () => {
+        toggle = toggle ? 0 : 1;
+        document.getElementById('greetingText').textContent = toggle ? "Say Word!" : "Say Hello!";
+    });
+</script>
 
 </body>
 </html>
