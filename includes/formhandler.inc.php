@@ -9,9 +9,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         require_once "dbh.inc.php";
 
+        // 1st: Submit the query
         $query = "INSERT INTO users (username, pwd, email) VALUES 
         (:username, :pwd, :email);"; //Two semicolons, one for sql, one for php
 
+        // 2nd: Setup prepare statement
         $stmt = $pdo->prepare($query);//Submit query to db so it can run into db
 
         //Password will be encrypted before being stored in the database, using the password_hash() function with the BCRYPT algorithm and a cost parameter of 12.
@@ -25,6 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bindParam(":pwd", $hashedPWD);
         $stmt->bindParam(":email", $email);
 
+        // 3rd Submit data from user
         $stmt->execute(); // Gives data that the user submitted / signs user up
         
         //Close statement and connection to db
