@@ -11,7 +11,7 @@ ini_set('session.use_strict_mode', 1);
 session_set_cookie_params([
     'lifetime' => 1800,
     'domain' => 'localhost',
-    'path' => '/',
+    'path' => '/', //Allows cookie to run on any path within the domain
 
     //if you're running plain http://localhost without SSL configured, secure => true means the browser will refuse to send the session cookie at all, and your sessions will silently break (you'll get a new session ID on every request). This is a common "why do my sessions keep resetting" bug on local dev. You'd want secure => false for local HTTP testing, and only true once you're on HTTPS (like in production).
     'secure' => false,
